@@ -1,0 +1,37 @@
+// valiable
+$header-height: 56px;
+$inner-width: 1024px;
+
+header {
+  display: flex;
+  height: $header-height;
+  width: 100%;
+  color: #fafafa;
+  background-color: #1a1a1a;
+  // ロゴ
+  h1 {
+    color: #fafafa;
+    width: 120px;
+
+    // 中央寄せ
+    display: flex;
+    align-items: center;
+  }
+  // ナビゲーションメニュー
+  ul.nav-contents {
+    display: flex;
+    li {
+      width: 80px;
+      // 中央寄せ
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.inner-header {
+  display: flex;
+  width: $inner-width;
+  margin: 0 auto;
+}
